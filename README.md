@@ -1,30 +1,78 @@
-# React + TypeScript + Vite
+## Introduction
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to our ReactJS project! This guide is designed to help you seamlessly set up and use our ReactJS starter template with Ant Design. Whether you're a beginner or an experienced developer, these instructions will assist you in customizing and launching your application efficiently.
 
-Currently, two official plugins are available:
+## How was this project created?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+See the creation details here: [HOW][./HOW.md]
 
-## Expanding the ESLint configuration
+## How to use this project?
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To get started, follow these steps:
 
-- Configure the top-level `parserOptions` property like this:
+1. Rename the folder from `reactjs-starter-template-antd` to `your-app-name`.
+2. Edit **package.json**:
+    - Change line 2 from `"name": "reactjs-starter-template-antd"` to `"name": "your-app-name"`.
+3. Modify **CONTRIBUTING.md**:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+    - Line 8: Replace the existing repository link with your specific link.
+
+        Before:
+
+        ```shell
+        git remote add upstream git@github.com:lifeparticle/reactjs-starter-template-antd.git
+        ```
+
+        After:
+
+        ```shell
+        git remote add upstream git@github.com:github-user-name/githib-repo-name.git
+        ```
+
+    - Line 62: Update the pull request link to your repository's link.
+
+        Before:
+
+        ```shell
+        https://github.com/lifeparticle/reactjs-starter-template-antd/pulls
+        ```
+
+        After:
+
+        ```shell
+        https://github.com/github-user-name/githib-repo-name/pulls
+        ```
+
+## Installation
+
+Ensure these dependencies are installed before proceeding:
+
+```shell
+node -v
+# 18.16.1
+
+yarn -v
+# 3.6.1
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Install project dependencies using Yarn with the `--immutable` flag to ensure consistent package versions:
+
+```shell
+yarn install --immutable
+```
+
+## Running the Project
+
+To run the project locally, execute the following command:
+
+```shell
+yarn dev
+```
+
+## Running Tests
+
+You can also run tests to ensure the project's functionality:
+
+```shell
+yarn test
+```
