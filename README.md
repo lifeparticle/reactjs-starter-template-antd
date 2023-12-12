@@ -2,6 +2,44 @@
 
 Welcome to our ReactJS project! This guide is designed to help you seamlessly set up and use our ReactJS starter template with Ant Design. Whether you're a beginner or an experienced developer, these instructions will assist you in customizing and launching your application efficiently.
 
+## Installation
+
+Ensure these dependencies are installed before proceeding:
+
+```shell
+node -v
+# 18.16.1
+
+yarn -v
+# 3.6.1
+```
+
+Install project dependencies using Yarn with the `--immutable` flag to ensure consistent package versions:
+
+```shell
+yarn install --immutable
+```
+
+## Running the Project
+
+To run the project locally, execute the following command:
+
+```shell
+yarn dev
+```
+
+## Running Tests
+
+You can also run tests to ensure the project's functionality:
+
+```shell
+yarn test
+```
+
+## Contributing
+
+If you'd like to contribute to the project, please check the [How to contribute](ui/CONTRIBUTING.md) file for guidelines and instructions.
+
 ## How was this project created?
 
 See the creation details here: [HOW](./HOW.md)
@@ -43,36 +81,7 @@ To get started, follow these steps:
         https://github.com/github-user-name/githib-repo-name/pulls
         ```
 
-## Installation
-
-Ensure these dependencies are installed before proceeding:
-
-```shell
-node -v
-# 18.16.1
-
-yarn -v
-# 3.6.1
-```
-
-Install project dependencies using Yarn with the `--immutable` flag to ensure consistent package versions:
-
-```shell
-yarn install --immutable
-```
-
-## Running the Project
-
-To run the project locally, execute the following command:
-
-```shell
-yarn dev
-```
-
-## Running Tests
-
-You can also run tests to ensure the project's functionality:
-
-```shell
-yarn test
-```
+4. Update the **Introduction** section with your project description
+5. Delete the **How was this project created?** section
+6. Delete the **How to use this project?** section
+7. Delete the **HOW.md** file
