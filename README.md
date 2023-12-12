@@ -38,7 +38,7 @@ yarn test
 
 ## Contributing
 
-If you'd like to contribute to the project, please check the [How to contribute](ui/CONTRIBUTING.md) file for guidelines and instructions.
+If you'd like to contribute to the project, please check the [How to contribute](./CONTRIBUTING.md) file for guidelines and instructions.
 
 ## How was this project created?
 
