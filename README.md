@@ -4,7 +4,7 @@ Welcome to our ReactJS project! This guide is designed to help you seamlessly se
 
 ## How was this project created?
 
-See the creation details here: [HOW][./HOW.md]
+See the creation details here: [HOW](./HOW.md)
 
 ## How to use this project?
 

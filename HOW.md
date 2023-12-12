@@ -26,7 +26,7 @@ Initialize a markdown file to guide contributors.
 
 6. Configure TypeScript:
 
-In **tsconfig.json**, under "compilerOptions", add:
+In **tsconfig.json**, under `"compilerOptions"`, add:
 
 ```json
 "baseUrl": "src"
