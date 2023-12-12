@@ -83,5 +83,5 @@ To get started, follow these steps:
 
 4. Update the **Introduction** section with your project description
 5. Delete the **How was this project created?** section
-6. Delete the **How to use this project?** section
-7. Delete the **HOW.md** file
+6. Delete the **HOW.md** file
+7. Delete the **How to use this project?** section
