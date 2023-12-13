@@ -1,8 +1,8 @@
-## Introduction
+## 1. Introduction
 
 Welcome to our ReactJS project! This guide is designed to help you seamlessly set up and use our ReactJS starter template with Ant Design. Whether you're a beginner or an experienced developer, these instructions will assist you in customizing and launching your application efficiently.
 
-## Installation
+## 2. Installation
 
 Ensure these dependencies are installed before proceeding:
 
@@ -20,7 +20,7 @@ Install project dependencies using Yarn with the `--immutable` flag to ensure co
 yarn install --immutable
 ```
 
-## Running the Project
+## 3. Running the Project
 
 To run the project locally, execute the following command:
 
@@ -28,7 +28,7 @@ To run the project locally, execute the following command:
 yarn dev
 ```
 
-## Running Tests
+## 4. Running Tests
 
 You can also run tests to ensure the project's functionality:
 
@@ -36,22 +36,21 @@ You can also run tests to ensure the project's functionality:
 yarn test
 ```
 
-## Contributing
+## 5. Contributing
 
 If you'd like to contribute to the project, please check the [How to contribute](./CONTRIBUTING.md) file for guidelines and instructions.
 
-## How was this project created?
+## 6. How was this project created?
 
 See the creation details here: [HOW](./HOW.md)
 
-## How to use this project?
+## 7. How to use this project?
 
 To get started, follow these steps:
 
-1. Rename the folder from `reactjs-starter-template-antd` to `your-app-name`.
-2. Edit **package.json**:
-    - Change line 2 from `"name": "reactjs-starter-template-antd"` to `"name": "your-app-name"`.
-3. Modify **CONTRIBUTING.md**:
+7.1. Rename the folder from `reactjs-starter-template-antd` to `your-app-name`.
+7.2. Edit **package.json**: - Change line 2 from `"name": "reactjs-starter-template-antd"` to `"name": "your-app-name"`.
+7.3. Modify **CONTRIBUTING.md**:
 
     - Line 8: Replace the existing repository link with your specific link.
 
@@ -81,7 +80,16 @@ To get started, follow these steps:
         https://github.com/github-user-name/githib-repo-name/pulls
         ```
 
-4. Update the **Introduction** section with your project description
-5. Delete the **How was this project created?** section
-6. Delete the **HOW.md** file
-7. Delete the **How to use this project?** section
+## 8. Modify **CODE_OF_CONDUCT.md**:
+
+-   Line 64: Replace [INSERT CONTACT METHOD].
+
+## 9. Modify **LICENSE**:
+
+This project is using
+
+## 10. Update the **Introduction** section with your project description
+
+## 11. Delete the **HOW.md** file
+
+## 12. Delete from Point 6 to 12

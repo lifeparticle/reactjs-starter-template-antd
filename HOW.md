@@ -18,13 +18,27 @@ nodeLinker: "node-modules"
 
 4. Create **CHANGELOG.md**:
 
-Initialize a markdown file for maintaining change logs.
+Set up a Markdown file dedicated to documenting the history of changes and updates made to the project.
 
 5. Create **CONTRIBUTING.md**:
 
-Initialize a markdown file to guide contributors.
+Create a Markdown file containing guidelines for contributing to the project
 
-6. Configure TypeScript:
+6. Create **CODE_OF_CONDUCT.md**:
+
+Establish a Markdown file outlining the code of conduct for contributors, ensuring a respectful and inclusive environment.
+
+[Source](https://www.contributor-covenant.org/)
+
+7. Create **FAQ.md**:
+
+Develop a Markdown file that addresses frequently asked questions, providing clarity and support for contributors.
+
+8. Create **LICENSE**
+
+MIT License.
+
+9. Configure TypeScript:
 
 In **tsconfig.json**, under `"compilerOptions"`, add:
 
@@ -32,10 +46,10 @@ In **tsconfig.json**, under `"compilerOptions"`, add:
 "baseUrl": "src"
 ```
 
-7. Update Vite Configuration:
-   Modify **vite.config.ts**:
+10. Update Vite Configuration:
+    Modify **vite.config.ts**:
 
-7.1. Enable minification in the build process:
+10.1. Enable minification in the build process:
 
 ```ts
 build: {
@@ -43,9 +57,9 @@ build: {
 }
 ```
 
-7.2. Add `viteTsconfigPaths()` to the `plugins` array.
+10.2. Add `viteTsconfigPaths()` to the `plugins` array.
 
-8. Install NPM Packages:
+11. Install NPM Packages:
 
 -   Development Dependencies:
 
