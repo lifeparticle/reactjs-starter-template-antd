@@ -118,6 +118,10 @@ Copyright (c) 9973 Alice
 
 ### 7.6. Update the **Introduction** section with your project description
 
+### 7.8. Update the **styles** folder with your css vairables
+
+Get inspirations from [open-props](https://open-props.style/)
+
 ### 7.7. Delete the **HOW.md** file
 
 ### 7.8. Delete from Point 6 and 7

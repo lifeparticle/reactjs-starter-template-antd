@@ -71,11 +71,21 @@ build: {
 
 13. Add **styles** folder
 
-[Source](https://open-props.style/)
+14. Add **fonts** folder under **assets**
 
-14. Refactor **main.tsx**
+15. Add **routes** folder
 
-15. Install NPM Packages:
+16. Add **data** folder
+
+17. Add **components** folder
+
+18. Add **pages** folder
+
+19. Refactor **main.tsx**
+
+20. Refactor **App.tsx**
+
+21. Install NPM Packages:
 
 -   Development Dependencies:
 
@@ -90,5 +100,5 @@ yarn add --dev sass
 yarn add react-router-dom
 yarn add antd
 yarn add @tanstack/react-query
-yarn add @tabler/icons
+yarn add lucide-react
 ```
