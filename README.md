@@ -48,9 +48,11 @@ See the creation details here: [HOW](./HOW.md)
 
 To get started, follow these steps:
 
-7.1. Rename the folder from `reactjs-starter-template-antd` to `your-app-name`.
-7.2. Edit **package.json**: - Change line 2 from `"name": "reactjs-starter-template-antd"` to `"name": "your-app-name"`.
-7.3. Modify **CONTRIBUTING.md**:
+### 7.1. Rename the folder from `reactjs-starter-template-antd` to `your-app-name`.
+
+### 7.2. Edit **package.json**: - Change line 2 from `"name": "reactjs-starter-template-antd"` to `"name": "your-app-name"`.
+
+### 7.3. Modify **CONTRIBUTING.md**:
 
     - Line 8: Replace the existing repository link with your specific link.
 
@@ -86,7 +88,19 @@ To get started, follow these steps:
 
 ## 9. Modify **LICENSE**:
 
-This project is using
+This project is currently licensed under MIT, but you are welcome to use any other license of your choice. If you decide to stick with the MIT license, please update line 3 to reflect the current year and include either your name or the name of your organization.
+
+Before:
+
+```
+Copyright (c) 2023 Mahbub Zaman
+```
+
+After:
+
+```
+Copyright (c) 9973 Alice
+```
 
 ## 10. Update the **Introduction** section with your project description
 
