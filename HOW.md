@@ -69,7 +69,13 @@ build: {
 
 **.prettierrc.json**
 
-13. Install NPM Packages:
+13. Add **styles** folder
+
+[Source](https://open-props.style/)
+
+14. Refactor **main.tsx**
+
+15. Install NPM Packages:
 
 -   Development Dependencies:
 
