@@ -48,45 +48,59 @@ See the creation details here: [HOW](./HOW.md)
 
 To get started, follow these steps:
 
-### 7.1. Rename the folder from `reactjs-starter-template-antd` to `your-app-name`.
+### 7.1. Rename the root folder
 
-### 7.2. Edit **package.json**: - Change line 2 from `"name": "reactjs-starter-template-antd"` to `"name": "your-app-name"`.
+Before:
+`reactjs-starter-template-antd`
+
+After:
+`your-app-name`.
+
+### 7.2. Edit **package.json**:
+
+Change line 2
+
+Before:
+`"name": "reactjs-starter-template-antd"`
+
+After:
+`"name": "your-app-name"`.
 
 ### 7.3. Modify **CONTRIBUTING.md**:
 
-    - Line 8: Replace the existing repository link with your specific link.
+-   Line 8: Replace the existing repository link with your specific link.
 
-        Before:
+Before:
 
-        ```shell
-        git remote add upstream git@github.com:lifeparticle/reactjs-starter-template-antd.git
-        ```
+```shell
+git remote add upstream git@github.com:lifeparticle/reactjs-starter-template-antd.git
+```
 
-        After:
+After:
 
-        ```shell
-        git remote add upstream git@github.com:github-user-name/githib-repo-name.git
-        ```
+```shell
+git remote add upstream git@github.com:github-user-name/githib-repo-name.git
+```
 
-    - Line 62: Update the pull request link to your repository's link.
+-   Line 62: Update the pull request link to your repository's link.
 
-        Before:
+Before:
 
-        ```shell
-        https://github.com/lifeparticle/reactjs-starter-template-antd/pulls
-        ```
+```shell
+https://github.com/lifeparticle/reactjs-starter-template-antd/pulls
+```
 
-        After:
+After:
 
-        ```shell
-        https://github.com/github-user-name/githib-repo-name/pulls
-        ```
+```shell
+https://github.com/github-user-name/githib-repo-name/pulls
+```
 
-## 8. Modify **CODE_OF_CONDUCT.md**:
+### 7.4. Modify **CODE_OF_CONDUCT.md**:
 
 -   Line 64: Replace [INSERT CONTACT METHOD].
 
-## 9. Modify **LICENSE**:
+### 7.5. Modify **LICENSE**:
 
 This project is currently licensed under MIT, but you are welcome to use any other license of your choice. If you decide to stick with the MIT license, please update line 3 to reflect the current year and include either your name or the name of your organization.
 
@@ -102,8 +116,8 @@ After:
 Copyright (c) 9973 Alice
 ```
 
-## 10. Update the **Introduction** section with your project description
+### 7.6. Update the **Introduction** section with your project description
 
-## 11. Delete the **HOW.md** file
+### 7.7. Delete the **HOW.md** file
 
-## 12. Delete from Point 6 to 12
+### 7.8. Delete from Point 6 and 7
