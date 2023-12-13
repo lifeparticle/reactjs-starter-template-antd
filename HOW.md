@@ -60,7 +60,7 @@ build: {
 
 10.2. Add `viteTsconfigPaths()` to the `plugins` array.
 
-11. Add Workspace Settings for Visual Studio Code1
+11. Add Workspace Settings for Visual Studio Code:
 
 -   **launch.json**
 -   **settings.json**
