@@ -47,7 +47,8 @@ In **tsconfig.json**, under `"compilerOptions"`, add:
 ```
 
 10. Update Vite Configuration:
-    Modify **vite.config.ts**:
+
+Modify **vite.config.ts**:
 
 10.1. Enable minification in the build process:
 
@@ -59,7 +60,16 @@ build: {
 
 10.2. Add `viteTsconfigPaths()` to the `plugins` array.
 
-11. Install NPM Packages:
+11. Add Workspace Settings for Visual Studio Code1
+
+-   **launch.json**
+-   **settings.json**
+
+12. Add Prettier Configuration File
+
+**.prettierrc.json**
+
+13. Install NPM Packages:
 
 -   Development Dependencies:
 
