@@ -62,8 +62,13 @@ build: {
 
 11. Add Workspace Settings for Visual Studio Code:
 
--   **launch.json**
--   **settings.json**
+-   **launch.json**: This file is used to configure debugging settings. It allows you to set up various configurations for running and debugging your code.
+-   **settings.json**: This is used for workspace settings. You can specify various preferences and settings that apply to your current project.
+-   **extensions.json**: This file is used to recommend extensions. When someone opens your project in VSCode, they will be prompted to install the extensions listed in this file.
+
+![Alt text](<Screen Shot 2023-12-14 at 10.53.12 pm.png>)
+
+To view a curated list of extensions, proceed to the "Extensions" section and apply the "Recommended" filter.
 
 12. Add Prettier Configuration File
 
