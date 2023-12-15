@@ -86,11 +86,17 @@ To view a curated list of extensions, proceed to the "Extensions" section and ap
 
 18. Add **pages** folder
 
-19. Refactor **main.tsx**
+19. Add **hooks** folder
 
-20. Refactor **App.tsx**
+20. Add **utils** folder
 
-21. Install NPM Packages:
+21. Add **api** folder
+
+22. Refactor **main.tsx**
+
+23. Refactor **App.tsx**
+
+24. Install NPM Packages:
 
 -   Development Dependencies:
 

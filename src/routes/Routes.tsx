@@ -1,4 +1,4 @@
-import { Spin } from "components/General";
+import { Spin } from "antd";
 import { routes } from "data/routeData";
 import { FC, Suspense } from "react";
 import { Routes as RRDRoutes, Route } from "react-router-dom";
