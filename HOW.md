@@ -8,6 +8,11 @@ yarn create vite . --template react-ts
 
 ```
 .yarn/*
+
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/react.code-snippets
 ```
 
 3. Add **.yarnrc.yml** File:
