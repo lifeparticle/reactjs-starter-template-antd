@@ -1,4 +1,4 @@
-## 1. How do I edit this project?
+## 1. How do I edit this template?
 
 To get started, follow these steps:
 
