@@ -72,6 +72,8 @@ Copyright (c) 9973 Alice
 
 ### 1.6. Update the **Introduction** section with your project description
 
+[Introduction](https://github.com/lifeparticle/reactjs-starter-template-antd/blob/main/README.md#1-introduction)
+
 ### 1.7. Update the **styles** folder with your CSS variables
 
 Get inspiration from [open-props](https://open-props.style/)
