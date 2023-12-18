@@ -72,14 +72,12 @@ Copyright (c) 9973 Alice
 
 ### 1.6. Update the **Introduction** section with your project description
 
-### 1.8. Update the **styles** folder with your css vairables
+### 1.7. Update the **styles** folder with your css vairables
 
 Get inspirations from [open-props](https://open-props.style/)
-
 
 ### 2. How was this project created?
 
 See the creation details here: [HOW](./HOW.md)
 
 ### 3. Delete the **HOW.md** and **GETTING_STARTED.md** file
-
