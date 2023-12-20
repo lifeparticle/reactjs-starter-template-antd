@@ -1,4 +1,4 @@
-## 1. How to use this project?
+## 1. How do I edit this template?
 
 To get started, follow these steps:
 
@@ -72,12 +72,14 @@ Copyright (c) 9973 Alice
 
 ### 1.6. Update the **Introduction** section with your project description
 
-### 1.7. Update the **styles** folder with your css vairables
+[Introduction](https://github.com/lifeparticle/reactjs-starter-template-antd/blob/main/README.md#1-introduction)
 
-Get inspirations from [open-props](https://open-props.style/)
+### 1.7. Update the **styles** folder with your CSS variables
+
+Get inspiration from [open-props](https://open-props.style/)
 
 ### 2. How was this project created?
 
 See the creation details here: [HOW](./HOW.md)
 
-### 3. Delete the **HOW.md** and **GETTING_STARTED.md** file
+### 3. Delete the **HOW.md** and **EDIT_TEMPLATE.md** file
