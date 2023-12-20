@@ -71,7 +71,7 @@ build: {
 -   **settings.json**: This is used for workspace settings. You can specify various preferences and settings that apply to your current project.
 -   **extensions.json**: This file is used to recommend extensions. When someone opens your project in VSCode, they will be prompted to install the extensions listed in this file.
 
-![Alt text](<Screen Shot 2023-12-14 at 10.53.12 pm.png>)
+<img width="793" alt="Screen Shot 2023-12-14 at 10 53 12 pm" src="https://github.com/lifeparticle/reactjs-starter-template-antd/assets/1612112/518a18e4-d81a-4474-a057-cdb4d53c7080">
 
 To view a curated list of extensions, proceed to the "Extensions" section and apply the "Recommended" filter.
 
