@@ -65,7 +65,30 @@ build: {
 
 10.2. Add `viteTsconfigPaths()` to the `plugins` array.
 
-11. Add Workspace Settings for Visual Studio Code:
+10.3 Add test config
+
+```ts
+test: {
+    globals: true,
+    environment: "jsdom",
+    setupFiles: "./src/test/setup.ts",
+    css: true,
+}
+```
+
+[source](https://github.com/vitest-dev/vitest/blob/main/examples/react-testing-lib/vite.config.ts)
+[source](https://www.npmjs.com/package/@testing-library/jest-dom#with-vitest)
+
+12. Add **src/test/setup.ts**
+
+```ts
+import "@testing-library/jest-dom";
+```
+
+[source](https://github.com/vitest-dev/vitest/blob/main/examples/react-testing-lib/src/test/setup.ts)
+[source](https://www.npmjs.com/package/@testing-library/jest-dom#with-vitest)
+
+13. Add Workspace Settings for Visual Studio Code:
 
 -   **launch.json**: This file is used to configure debugging settings. It allows you to set up various configurations for running and debugging your code.
 -   **settings.json**: This is used for workspace settings. You can specify various preferences and settings that apply to your current project.
@@ -108,6 +131,10 @@ To view a curated list of extensions, proceed to the "Extensions" section and ap
 ```shell
 yarn add --dev vite-tsconfig-paths
 yarn add --dev sass
+yarn add --dev vitest
+yarn add --dev @testing-library/jest-dom
+yarn add --dev @testing-library/react
+yarn add --dev jsdom
 ```
 
 -   Production Dependencies:
