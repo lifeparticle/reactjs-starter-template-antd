@@ -77,6 +77,7 @@ test: {
 ```
 
 [source](https://github.com/vitest-dev/vitest/blob/main/examples/react-testing-lib/vite.config.ts)
+
 [source](https://www.npmjs.com/package/@testing-library/jest-dom#with-vitest)
 
 12. Add **src/test/setup.ts**
@@ -86,6 +87,7 @@ import "@testing-library/jest-dom";
 ```
 
 [source](https://github.com/vitest-dev/vitest/blob/main/examples/react-testing-lib/src/test/setup.ts)
+
 [source](https://www.npmjs.com/package/@testing-library/jest-dom#with-vitest)
 
 13. Add Workspace Settings for Visual Studio Code:
@@ -181,9 +183,6 @@ function App() {
 	return (
 		<div>
 			<ConfigProvider theme={theme}>
-				<Routes />
-				<Button onClick={() => navigate("/pagea")}>Go to Page A</Button>
-				<Button onClick={() => navigate("/pageb")}>Go to Page B</Button>
 			</ConfigProvider>
 		</div>
 	);
