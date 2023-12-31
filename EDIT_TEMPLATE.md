@@ -78,6 +78,10 @@ Copyright (c) 9973 Alice
 
 Get inspiration from [open-props](https://open-props.style/)
 
+### 1.8 Change font
+
+- Update `/src/hooks/useTheme.ts`
+
 ### 2. How was this project created?
 
 See the creation details here: [HOW](./HOW.md)
