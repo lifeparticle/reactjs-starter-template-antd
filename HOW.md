@@ -104,7 +104,93 @@ To view a curated list of extensions, proceed to the "Extensions" section and ap
 
 13. Add **styles** folder
 
-14. Add **fonts** folder under **assets**
+- animations.css
+- colors.css
+- shadows.css
+- antd-overrides.csc
+- fonts.scss
+- sizes.css
+- borders.css
+- global.css
+- z-index.css
+
+14. Add **assets** folder
+
+- Add **fonts** folder
+- Add **Giest** and **Geist-Mono** folders
+- Update **fonts.scss**
+
+```scss
+:where(html) {
+	@font-face {
+		font-family: "Geist";
+		src: url("../assets/fonts/Geist/Geist-Regular.woff2") format('woff2');
+		font-weight: 400;
+		font-style: normal;
+	}
+    @font-face {
+		font-family: "Geist";
+		src: url("../assets/fonts/Geist/Geist-SemiBold.woff2") format('woff2');
+		font-weight: 600;
+	}
+
+    @font-face {
+		font-family: "Geist-Mono";
+		src: url("../assets/fonts/Geist-Mono/GeistMono-Regular.woff2") format('woff2');
+		font-weight: 400;
+		font-style: normal;
+	}
+	--global-font: "Geist",Segoe UI,Arial,sans-serif;
+    --global-font-mono: "Geist-Mono", monospace;
+}
+```
+
+- Update **global.css**
+
+```css
+code{
+	font-family: var(--global-font-mono);
+}
+```
+
+- Add **useTheme.ts**
+
+```ts
+export default function useTheme() {
+	const THEME = {
+		token: {
+			fontFamily: "var(--global-font)",
+		},
+	};
+	return THEME;
+}
+```
+
+- Update **App.tsx**
+
+```tsx
+import { Button, ConfigProvider } from "antd";
+import { useTheme } from "hooks";
+import { useNavigate } from "react-router-dom";
+import { Routes } from "routes";
+
+function App() {
+	const navigate = useNavigate();
+	const theme = useTheme();
+
+	return (
+		<div>
+			<ConfigProvider theme={theme}>
+				<Routes />
+				<Button onClick={() => navigate("/pagea")}>Go to Page A</Button>
+				<Button onClick={() => navigate("/pageb")}>Go to Page B</Button>
+			</ConfigProvider>
+		</div>
+	);
+}
+
+export default App;
+```
 
 15. Add **routes** folder
 
