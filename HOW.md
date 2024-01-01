@@ -4,7 +4,30 @@
 yarn create vite . --template react-ts
 ```
 
-2. Update **.gitignore**:
+2. Install NPM Packages:
+
+-   Development Dependencies:
+
+```shell
+yarn add --dev vite-tsconfig-paths
+yarn add --dev sass
+yarn add --dev vitest
+yarn add --dev @testing-library/jest-dom
+yarn add --dev @testing-library/react
+yarn add --dev jsdom
+yarn add --dev scaffdog
+```
+
+-   Production Dependencies:
+
+```shell
+yarn add react-router-dom
+yarn add antd
+yarn add @tanstack/react-query
+yarn add lucide-react
+```
+
+3. Update **.gitignore**:
 
 ```
 .yarn/*
@@ -15,35 +38,35 @@ yarn create vite . --template react-ts
 !.vscode/react.code-snippets
 ```
 
-3. Add **.yarnrc.yml** File:
+4. Add **.yarnrc.yml** File:
 
 ```yml
 nodeLinker: "node-modules"
 ```
 
-4. Create **CHANGELOG.md**:
+5. Create **CHANGELOG.md**:
 
 Set up a Markdown file dedicated to documenting the history of changes and updates made to the project.
 
-5. Create **CONTRIBUTING.md**:
+6. Create **CONTRIBUTING.md**:
 
 Create a Markdown file containing guidelines for contributing to the project
 
-6. Create **CODE_OF_CONDUCT.md**:
+7. Create **CODE_OF_CONDUCT.md**:
 
 Establish a Markdown file outlining the code of conduct for contributors, ensuring a respectful and inclusive environment.
 
 [Source](https://www.contributor-covenant.org/)
 
-7. Create **FAQ.md**:
+8. Create **FAQ.md**:
 
 Develop a Markdown file that addresses frequently asked questions, providing clarity and support for contributors.
 
-8. Create **LICENSE**
+9. Create **LICENSE**
 
 MIT License.
 
-9. Configure TypeScript:
+10. Configure TypeScript:
 
 In **tsconfig.json**, under `"compilerOptions"`, add:
 
@@ -51,11 +74,11 @@ In **tsconfig.json**, under `"compilerOptions"`, add:
 "baseUrl": "src"
 ```
 
-10. Update Vite Configuration:
+11. Update Vite Configuration:
 
 Modify **vite.config.ts**:
 
-10.1. Enable minification in the build process:
+11.1. Enable minification in the build process:
 
 ```ts
 build: {
@@ -63,9 +86,9 @@ build: {
 }
 ```
 
-10.2. Add `viteTsconfigPaths()` to the `plugins` array.
+11.2. Add `viteTsconfigPaths()` to the `plugins` array.
 
-10.3 Add test config
+11.3 Add test config
 
 ```ts
 test: {
@@ -100,62 +123,62 @@ import "@testing-library/jest-dom";
 
 To view a curated list of extensions, proceed to the "Extensions" section and apply the "Recommended" filter.
 
-12. Add Prettier Configuration File
+14. Add Prettier Configuration File
 
 **.prettierrc.json**
 
-13. Add **styles** folder
+15. Add **styles** folder
 
-- animations.css
-- colors.css
-- shadows.css
-- antd-overrides.csc
-- fonts.scss
-- sizes.css
-- borders.css
-- global.css
-- z-index.css
+-   animations.css
+-   colors.css
+-   shadows.css
+-   antd-overrides.csc
+-   fonts.scss
+-   sizes.css
+-   borders.css
+-   global.css
+-   z-index.css
 
-14. Add **assets** folder
+16. Add **assets** folder
 
-- Add **fonts** folder
-- Add **Giest** and **Geist-Mono** folders
-- Update **fonts.scss**
+-   Add **fonts** folder
+-   Add **Giest** and **Geist-Mono** folders
+-   Update **fonts.scss**
 
 ```scss
 :where(html) {
 	@font-face {
 		font-family: "Geist";
-		src: url("../assets/fonts/Geist/Geist-Regular.woff2") format('woff2');
+		src: url("../assets/fonts/Geist/Geist-Regular.woff2") format("woff2");
 		font-weight: 400;
 		font-style: normal;
 	}
-    @font-face {
+	@font-face {
 		font-family: "Geist";
-		src: url("../assets/fonts/Geist/Geist-SemiBold.woff2") format('woff2');
+		src: url("../assets/fonts/Geist/Geist-SemiBold.woff2") format("woff2");
 		font-weight: 600;
 	}
 
-    @font-face {
+	@font-face {
 		font-family: "Geist-Mono";
-		src: url("../assets/fonts/Geist-Mono/GeistMono-Regular.woff2") format('woff2');
+		src: url("../assets/fonts/Geist-Mono/GeistMono-Regular.woff2") format("woff2");
 		font-weight: 400;
 		font-style: normal;
 	}
-	--global-font: "Geist",Segoe UI,Arial,sans-serif;
-    --global-font-mono: "Geist-Mono", monospace;
+	--global-font: "Geist", Segoe UI, Arial, sans-serif;
+	--global-font-mono: "Geist-Mono", monospace;
 }
 ```
 
-- Update **global.css**
+-   Update **global.css**
 
 ```css
-code{
+code {
 	font-family: var(--global-font-mono);
 }
 ```
 
-- Add **useTheme.ts**
+-   Add **useTheme.ts**
 
 ```ts
 export default function useTheme() {
@@ -168,7 +191,7 @@ export default function useTheme() {
 }
 ```
 
-- Update **App.tsx**
+-   Update **App.tsx**
 
 ```tsx
 import { Button, ConfigProvider } from "antd";
@@ -182,8 +205,7 @@ function App() {
 
 	return (
 		<div>
-			<ConfigProvider theme={theme}>
-			</ConfigProvider>
+			<ConfigProvider theme={theme}></ConfigProvider>
 		</div>
 	);
 }
@@ -191,42 +213,34 @@ function App() {
 export default App;
 ```
 
-15. Add **routes** folder
+17. Add **routes** folder
 
-16. Add **data** folder
+18. Add **data** folder
 
-17. Add **components** folder
+19. Add **components** folder
 
-18. Add **pages** folder
+20. Add **pages** folder
 
-19. Add **hooks** folder
+21. Add **hooks** folder
 
-20. Add **utils** folder
+22. Add **utils** folder
 
-21. Add **api** folder
+23. Add **api** folder
 
-22. Refactor **main.tsx**
+24. Refactor **main.tsx**
 
-23. Refactor **App.tsx**
+25. Refactor **App.tsx**
 
-24. Install NPM Packages:
+26. Scaffdog setup
 
--   Development Dependencies:
-
-```shell
-yarn add --dev vite-tsconfig-paths
-yarn add --dev sass
-yarn add --dev vitest
-yarn add --dev @testing-library/jest-dom
-yarn add --dev @testing-library/react
-yarn add --dev jsdom
-```
-
--   Production Dependencies:
+-   Installation
 
 ```shell
-yarn add react-router-dom
-yarn add antd
-yarn add @tanstack/react-query
-yarn add lucide-react
+npx scaffdog init
+# Please enter a document name.
+page
 ```
+
+-   Update **page.md**
+
+[source](https://scaff.dog/docs)

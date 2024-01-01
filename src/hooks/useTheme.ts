@@ -4,6 +4,5 @@ export default function useTheme() {
 			fontFamily: "var(--global-font)",
 		},
 	};
-
 	return THEME;
 }

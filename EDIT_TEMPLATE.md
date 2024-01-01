@@ -80,10 +80,26 @@ Get inspiration from [open-props](https://open-props.style/)
 
 ### 1.8 Change font
 
-- Update `/src/hooks/useTheme.ts`
+-   Update `/src/hooks/useTheme.ts`
 
-### 2. How was this project created?
+### 3. Scaffdog
+
+Create new page using Scaffdog
+
+```shell
+npx scaffdog generate
+```
+
+```shell
+? Please select a document. page.md
+? Please select the output destination directory. src/pages
+? Please enter a page name. Test
+```
+
+-   You will get **index.tsx**, **PageName.tsx**, **PageName.module.scss** and test folder with **PageName.test.tsx**
+
+### 4. How was this project created?
 
 See the creation details here: [HOW](./HOW.md)
 
-### 3. Delete the **HOW.md** and **EDIT_TEMPLATE.md** file
+### 5. Delete the **HOW.md** and **EDIT_TEMPLATE.md** file
