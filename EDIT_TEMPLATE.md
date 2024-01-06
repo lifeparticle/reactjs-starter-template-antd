@@ -22,7 +22,49 @@ After:
 
 ### 1.3. Modify **CONTRIBUTING.md**:
 
--   Line 8: Replace the existing repository link with your specific link.
+-   Line 4: Replace the repository name with githib-repo-name
+
+Before:
+
+```shell
+-   Does it make developing reactjs-starter-template-antd easier?
+```
+
+After:
+
+```shell
+-   Does it make developing githib-repo-name easier?
+```
+
+-   Line 5: Replace the issue link
+
+Before:
+
+```shell
+-   Does it fix a bug? -> Create an [issue](https://github.com/lifeparticle/reactjs-starter-template-antd/issues/new) with the steps to reproduce
+```
+
+After:
+
+```shell
+-   Does it fix a bug? -> Create an [issue](https://github.com/github-user-name/githib-repo-name/issues/new) with the steps to reproduce
+```
+
+-   Line 7: Replace the repository name with your repository name and goal
+
+Before:
+
+```shell
+-   Does it stick to the original goal of reactjs-starter-template-antd -> ReactJS starter template with Ant Design
+```
+
+After:
+
+```shell
+-   Does it stick to the original goal of githib-repo-name -> Goal
+```
+
+-   Line 71: Replace the existing repository link with your specific link.
 
 Before:
 
@@ -36,7 +78,7 @@ After:
 git remote add upstream git@github.com:github-user-name/githib-repo-name.git
 ```
 
--   Line 62: Update the pull request link to your repository's link.
+-   Line 126: Update the pull request link to your repository's link.
 
 Before:
 
