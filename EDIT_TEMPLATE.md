@@ -124,24 +124,8 @@ Get inspiration from [open-props](https://open-props.style/)
 
 -   Update `/src/hooks/useTheme.ts`
 
-### 3. Scaffdog
-
-Create new page using Scaffdog
-
-```shell
-npx scaffdog generate
-```
-
-```shell
-? Please select a document. page.md
-? Please select the output destination directory. src/pages
-? Please enter a page name. Test
-```
-
--   You will get **index.tsx**, **PageName.tsx**, **PageName.module.scss** and test folder with **PageName.test.tsx**
-
-### 4. How was this project created?
+## 2. How was this project created?
 
 See the creation details here: [HOW](./HOW.md)
 
-### 5. Delete the **HOW.md** and **EDIT_TEMPLATE.md** file
+## 3. Delete the **HOW.md** and **EDIT_TEMPLATE.md** file
