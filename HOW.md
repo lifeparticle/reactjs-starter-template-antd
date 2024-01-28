@@ -62,11 +62,13 @@ Establish a Markdown file outlining the code of conduct for contributors, ensuri
 
 Develop a Markdown file that addresses frequently asked questions, providing clarity and support for contributors.
 
-9. Create **LICENSE**
+9. Create **SECURITY.md**:
+
+10. Create **LICENSE**
 
 MIT License.
 
-10. Configure TypeScript:
+11. Configure TypeScript:
 
 In **tsconfig.json**, under `"compilerOptions"`, add:
 
@@ -74,11 +76,11 @@ In **tsconfig.json**, under `"compilerOptions"`, add:
 "baseUrl": "src"
 ```
 
-11. Update Vite Configuration:
+12. Update Vite Configuration:
 
 Modify **vite.config.ts**:
 
-11.1. Enable minification in the build process:
+12.1. Enable minification in the build process:
 
 ```ts
 build: {
@@ -86,9 +88,9 @@ build: {
 }
 ```
 
-11.2. Add `viteTsconfigPaths()` to the `plugins` array.
+12.2. Add `viteTsconfigPaths()` to the `plugins` array.
 
-11.3 Add test config
+12.3 Add test config
 
 ```ts
 test: {
@@ -103,7 +105,7 @@ test: {
 
 [source](https://www.npmjs.com/package/@testing-library/jest-dom#with-vitest)
 
-12. Add **src/test/setup.ts**
+13. Add **src/test/setup.ts**
 
 ```ts
 import "@testing-library/jest-dom";
@@ -113,7 +115,7 @@ import "@testing-library/jest-dom";
 
 [source](https://www.npmjs.com/package/@testing-library/jest-dom#with-vitest)
 
-13. Add Workspace Settings for Visual Studio Code:
+14. Add Workspace Settings for Visual Studio Code:
 
 -   **launch.json**: This file is used to configure debugging settings. It allows you to set up various configurations for running and debugging your code.
 -   **settings.json**: This is used for workspace settings. You can specify various preferences and settings that apply to your current project.
@@ -123,11 +125,11 @@ import "@testing-library/jest-dom";
 
 To view a curated list of extensions, proceed to the "Extensions" section and apply the "Recommended" filter.
 
-14. Add Prettier Configuration File
+15. Add Prettier Configuration File
 
 **.prettierrc.json**
 
-15. Add **styles** folder
+16. Add **styles** folder
 
 -   animations.css
 -   colors.css
@@ -139,13 +141,13 @@ To view a curated list of extensions, proceed to the "Extensions" section and ap
 -   global.css
 -   z-index.css
 
-16. Add **assets** folder
+17. Add **assets** folder
 
 -   Add **fonts** folder
 -   Add **Giest** and **Geist-Mono** folders
 -   Update **fonts.scss**
 -   Add [PageNotFound.svg](https://error404.fun/)
--   Update the `reactjs-starter-template-antd/src/pages/PageNotFound/PageNotFound.tsx` file
+-   Update the `/src/pages/PageNotFound/PageNotFound.tsx` file
 
 ```scss
 :where(html) {
@@ -215,25 +217,25 @@ function App() {
 export default App;
 ```
 
-17. Add **routes** folder
+18. Add **routes** folder
 
-18. Add **data** folder
+19. Add **data** folder
 
-19. Add **components** folder
+20. Add **components** folder
 
-20. Add **pages** folder
+21. Add **pages** folder
 
-21. Add **hooks** folder
+22. Add **hooks** folder
 
-22. Add **utils** folder
+23. Add **utils** folder
 
-23. Add **api** folder
+24. Add **api** folder
 
-24. Refactor **main.tsx**
+25. Refactor **main.tsx**
 
-25. Refactor **App.tsx**
+26. Refactor **App.tsx**
 
-26. Scaffdog setup
+27. Scaffdog setup
 
 -   Installation
 
