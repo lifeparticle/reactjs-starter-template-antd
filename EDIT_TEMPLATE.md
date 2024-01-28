@@ -124,6 +124,10 @@ Get inspiration from [open-props](https://open-props.style/)
 
 -   Update `/src/hooks/useTheme.ts`
 
+### 1.9 Change the page not found page
+
+-   Update the `reactjs-starter-template-antd/src/pages/PageNotFound/PageNotFound.tsx` file
+
 ## 2. How was this project created?
 
 See the creation details here: [HOW](./HOW.md)
