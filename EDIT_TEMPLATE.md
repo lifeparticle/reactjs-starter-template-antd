@@ -132,6 +132,10 @@ Get inspiration from [open-props](https://open-props.style/)
 
 -   Line 5: Replace [INSERT CONTACT METHOD].
 
+### 1.11 Update `public/robots.txt` according to your needs
+
+### 1.12 Update `index.html` according to your needs
+
 ## 2. How was this project created?
 
 See the creation details here: [HOW](./HOW.md)

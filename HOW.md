@@ -248,3 +248,23 @@ page
 -   Update **page.md**
 
 [source](https://scaff.dog/docs)
+
+28. Add **robots.txt**
+
+```txt
+User-agent: *
+Allow: /
+```
+
+29. Edit **index.html**
+
+-   Add meta description
+
+```
+<meta
+	name="description"
+	content="ReactJS starter template with Material UI"
+/>
+```
+
+-   Edit title tag
