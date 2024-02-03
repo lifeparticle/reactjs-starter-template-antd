@@ -136,6 +136,11 @@ Get inspiration from [open-props](https://open-props.style/)
 
 ### 1.12 Update `index.html` according to your needs
 
+### 1.13 Update issue and pull request templates according to your needs
+
+-   `/.github/ISSUE_TEMPLATE`
+-   `/.github/pull_request_template.md`
+
 ## 2. How was this project created?
 
 See the creation details here: [HOW](./HOW.md)
