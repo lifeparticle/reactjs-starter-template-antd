@@ -1,17 +1,3 @@
-## Describe your changes
-
-## Issue ticket number
-
-## Checklist before requesting a review
-
--   [ ] I have performed a self-review of my code
--   [ ] If it is a core feature, I have added thorough tests.
--   [ ] Do we need to implement analytics?
--   [ ] Will this be part of a product update? If yes, please write one phrase about this update.
--   [ ] Identify and resolve any new warnings in the console
--   [ ] Identify and resolve any new errors in the console
--   [ ] If there are modifications to configurations such as `vite.config.ts`, `tsconfig.json` etc., ensure to include a description
-
 ## Pull Request Overview
 
 Please provide a brief summary of the changes made in this pull request. This helps reviewers understand the context and intent of your changes.
