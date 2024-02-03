@@ -268,3 +268,11 @@ Allow: /
 ```
 
 -   Edit title tag
+
+30. GitHub specific folders and files
+
+-   Add **.github** folder
+    -   Add **ISSUE_TEMPLATE** folder
+        -   Add bug_report.md
+        -   feature_request.md
+    -   Add pull_request_template.md
