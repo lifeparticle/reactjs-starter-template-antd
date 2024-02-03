@@ -136,7 +136,9 @@ Get inspiration from [open-props](https://open-props.style/)
 
 ### 1.12 Update `index.html` according to your needs
 
-### 1.13 Update issue and pull request templates according to your needs
+### 1.13 Configurations Specific to GitHub, remove these if you're using BitBucket, GitLab, or any other platforms:
+
+Update issue and pull request templates according to your needs
 
 -   `/.github/ISSUE_TEMPLATE`
 -   `/.github/pull_request_template.md`
