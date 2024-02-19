@@ -235,23 +235,23 @@ PageA/
 
 4.2. Update
 
-`ui/src/pages/index.ts`
+`/src/pages/index.ts`
 
 4.3. Update
 
-`ui/src/data/featureData.ts`
+`/src/data/featureData.ts`
 
 4.4. Update
 
-`ui/src/data/helpData.ts`
+`/src/data/helpData.ts`
 
 4.5. Update
 
-`ui/src/data/menuData.ts`
+`/src/data/menuData.ts`
 
 4.6. Update
 
-`ui/src/data/routeData.tsx`
+`/src/data/routeData.tsx`
 
 #### 5. How to add tests for a feature?
 
