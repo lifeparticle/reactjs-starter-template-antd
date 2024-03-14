@@ -116,15 +116,15 @@ Copyright (c) 9973 Alice
 
 [Introduction](https://github.com/lifeparticle/reactjs-starter-template-antd/blob/main/README.md#1-introduction)
 
-### 1.7. Update the **styles** folder with your CSS variables
+### 1.7. Update the **styles** folder with your CSS variables (Optional)
 
 Get inspiration from [open-props](https://open-props.style/)
 
-### 1.8 Change font
+### 1.8 Change font (Optional)
 
 -   Update `/src/hooks/useTheme.ts`
 
-### 1.9 Change the page not found page
+### 1.9 Change the page not found page (Optional)
 
 -   Update the `/src/pages/PageNotFound/PageNotFound.tsx` file
 
@@ -143,7 +143,7 @@ Update issue and pull request templates according to your needs
 -   `/.github/ISSUE_TEMPLATE`
 -   `/.github/pull_request_template.md`
 
-## 2. How was this project created?
+## 2. How was this project created? (Educational Purposes)
 
 See the creation details here: [HOW](./HOW.md)
 
